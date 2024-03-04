@@ -26,7 +26,7 @@ function FooterSection() {
     },
   ];
   return (
-    <section className="bg-[#383638] py-16 px-16">
+    <section className="bg-[#383638] py-16 px-4 md:px-16">
       <div className="flex justify-between flex-col md:flex-row gap-16">
         <div>
           <img src="/images/footer_logo.png" alt="footer logo" />

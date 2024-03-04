@@ -5,8 +5,8 @@ import MainButton from "../common/MainButton";
 function HeroSection() {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <div className="relative mt-32 md:mt-8">
-      <div>
+    <div className="relative mt-32 md:mt-8 ">
+      <div className="px-2">
         <p className="text-dark text-[28px] text-center  md:text-[64px] font-extrabold">
           Make your dream business goal come true
         </p>
@@ -43,7 +43,7 @@ function HeroSection() {
         />
       </div>
 
-      <div className="absolute top-32 left-8">
+      <div className="absolute top-32 left-8 hidden md:block">
         <img src="/images/blue_gradient_ball.png" alt="blue gradient ball" />
       </div>
       <div className="absolute top-0 right-0">
